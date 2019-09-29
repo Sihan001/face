@@ -1,0 +1,17 @@
+{
+    "name": "sihan/face2",
+    "description": "wechat face",
+    "type": "project",
+    "require": {
+    	"noahbuscher/macaw": "dev-master",
+		"xiaoler/blade": "^0.3.1",
+		"kosinix/grafika": "dev-master",
+        "overtrue/wechat": "^4.2"
+	},
+	"autoload": {
+	    "psr-4": {
+	      "App\\": "app/"
+	    }
+	  }
+	
+}
